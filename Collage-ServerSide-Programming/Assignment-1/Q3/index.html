@@ -1,0 +1,100 @@
+<!-- 3. Create a static web page which defines all text formatting tags of HTML in tabular format
+Output -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Formatting Tags Example</title>
+    <style>
+      table,th,td {
+        border: 1px solid black;
+      }
+      table span{
+        color: blue;;
+      }
+
+      .container{
+        max-width: fit-content;
+      }
+      .container h2{
+        color: red;
+        text-align: center;
+      }
+      
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>Text Formatting Tags </h2>
+    <table>
+      <thead>
+        <tr>
+          <th>HTML Tag</th>
+          <th>Output</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>normal text</td>
+          <td>hello world</td>
+        </tr>
+        <tr>
+          <td>Fort & its attributes</td>
+          <td><BIG><b><span>hello world</span></b></BIG></td>
+        </tr>
+        <tr>
+          <td>&lt;B&gt;</td>
+          <td><b>bold</b></td>
+        </tr>
+        <tr>
+          <td>&lt;I&gt;</td>
+          <td><i>Italic</i></td>
+        </tr>
+        <tr>
+          <td>&lt;U&gt;</td>
+          <td><u>underline</u></td>
+        </tr>
+        <tr>
+          <td>&lt;EM&gt;</td>
+          <td><em>Emphasis</em></td>
+        </tr>
+        <tr>
+          <td>&lt;STRONG&gt;</td>
+          <td><strong>STRONG</strong></td>
+        </tr>
+        <tr>
+          <td>&lt;TELETYPE&gt;</td>
+          <td><tt>TELETYPE</tt></td>
+        </tr>
+        <tr>
+          <td>&lt;CITE&gt;</td>
+          <td><cite>citation</cite></td>
+        </tr>
+        <tr>
+          <td>&lt;STRIKE&gt;</td>
+          <td><strike>strike through text</strike></td>
+        </tr>
+        <tr>
+          <td>&lt;BIG&gt;</td>
+          <td><big>text in a big font</big></td>
+        </tr>
+        <tr>
+          <td>&lt;SMALL&gt;</td>
+          <td><small>text in a small font</small></td>
+        </tr>
+        <tr>
+          <td>&lt;SUB&gt;</td>
+          <td>a<sub>b</sub></td>
+        </tr>
+        <tr>
+          <td>&lt;SUP&gt;</td>
+          <td>a<sup>b</sup></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </body>
+</html>
