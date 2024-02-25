@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  margin: 0px;
+  font-family: "Roboto", sans-serif;;
+  background-color: rgb(46, 38, 38);
+  color: aliceblue;
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  background-color: bisque;
+}
+.nav-bar h1{
+  color: red;
+}
+.nav-bar ul {
+  display: flex;
+  gap: 140px;
+  margin: auto;
+  color:rgb(26, 187, 199);
+  list-style: none;
+  font-size: large;
+}
+
+.hero-section{
+  display: flex;
+  justify-content: space-around;
+  height: 90vh;
+}
+
+.hero-info{
+  margin: auto;
+  color: antiquewhite;
+}
+
+.hero-image{
+  margin: auto;
+}
+
+.button-section button{
+  height:40px;
+  width:100px;
+  border-radius: 25px;
+  font-family: "Roboto" ;
+  font-weight: 800;
+  color: chocolate;
+}
+.education-section{
+  /* height: 100vh; */
+  text-align: center;
+  margin: auto;
+}
+
+.edu-container{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.school-info{
+  display: flex;
+  border-radius: 25px;
+  height: 180px;
+  width: 701px;
+  background-color: beige;
+  color: black;
+  text-align: left;
+  padding: 15px;
+}
+
+.school-info img{
+  height: 120px;
+  width:120px;
+  margin: auto 50px ;
+}
+.collage-info{
+  display: flex;
+  border-radius: 25px;
+  height: 180px;
+  width: 701px;
+  position: relative;
+  left:698px;
+  background-color: beige;
+  color: black;
+  text-align: left;
+  padding: 15px;
+}
+.collage-info img{
+  height: 120px;
+  width: 120px;
+  margin: auto 50px ;
+  border-radius: 50%;
+}

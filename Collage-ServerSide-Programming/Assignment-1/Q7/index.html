@@ -7,9 +7,9 @@
   </head>
   <body>
     <style>
-        th{
-            text-align: left;
-        }
+      th {
+        text-align: left;
+      }
     </style>
     <div class="container">
       <h1>Employee Registratiion Form</h1>
@@ -31,31 +31,38 @@
         </tr>
         <tr>
           <td>Mail Address1</td>
-          <td><input type="text" name="FNAME" placeholder="First Name" /></td>
+          <td><input type="text" name="FNAME"  /></td>
         </tr>
         <tr>
           <td>Mail Address2</td>
-          <td><input type="text" name="FNAME" placeholder="First Name" /></td>
+          <td><input type="text" name="FNAME"  /></td>
         </tr>
         <tr>
           <td>City</td>
-          <td><input type="text" name="FNAME" placeholder="First Name" /></td>
+          <td><input type="text" name="FNAME"  /></td>
         </tr>
         <tr>
           <td>State</td>
-          <td></td>
+          <td>
+            <select id="cars">
+              <option value="Gujrat">Gujrat</option>
+              <option value="Madhya-Pradesh">Madhya-Pradesh</option>
+              <option value="Rajasthan">Rajasthan</option>
+              <option value="Maharastra">Maharastra</option>
+            </select>
+          </td>
         </tr>
         <tr>
           <td>Zip</td>
-          <td></td>
+          <td><input type="number" name="zip-code" /></td>
         </tr>
         <tr>
           <td>Upload Photo</td>
-          <td></td>
+          <td><input type="file" /></td>
         </tr>
         <tr>
           <td>E-Mail</td>
-          <td></td>
+          <td><input type="email" name="" id="email" /></td>
         </tr>
         <tr>
           <td>Mobile</td>
@@ -63,7 +70,16 @@
         </tr>
         <tr>
           <td>Language Known</td>
-          <td></td>
+          <td>
+            <input type="checkbox" id="Gujrati" name="vehicle1" value="Gujrati" />
+            <label for="Gujrati">Gujrati</label><br />
+            <input type="checkbox" id="Hindi" name="Hindi" value="Hindi" />
+            <label for="Hindi">Hindi</label><br />
+            <input type="checkbox" id="English" name="English" value="English" />
+            <label for="English">English</label><br/>
+            <input type="checkbox" id="Marathi" name="Marathi" value="Marathi" />
+            <label for="Marathi">Marathi</label>
+          </td>
         </tr>
         <tr>
           <td>Additional Information</td>
