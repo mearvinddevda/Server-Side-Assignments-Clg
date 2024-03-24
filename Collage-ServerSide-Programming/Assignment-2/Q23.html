@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slideshow</title>
+<style>
+    #slideshow {
+        max-width: 500px;
+        margin: auto;
+        text-align: center;
+    }
+    img {
+        max-width: 100%;
+    }
+</style>
+</head>
+<body>
+<div id="slideshow">
+    <img src="image1.jpg" alt="Image 1" id="image">
+    <br>
+    <button onclick="previousImage()">Previous</button>
+    <button onclick="nextImage()">Next</button>
+</div>
+
+<script>
+// Array of image URLs
+const images = ["image1.jpg", "logoDAVV.jpg"];
+
+// Current index of the displayed image
+let currentIndex = 0;
+
+// Function to change to the previous image
+function previousImage() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    document.getElementById("image").src = images[currentIndex];
+}
+
+// Function to change to the next image
+function nextImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    document.getElementById("image").src = images[currentIndex];
+}
+</script>
+</body>
+</html>
