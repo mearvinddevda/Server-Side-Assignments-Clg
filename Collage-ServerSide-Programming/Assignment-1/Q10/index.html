@@ -1,70 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q10</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="nav-bar">
-        <h1 style="font-weight: bold;">&lt;<span style="color: rgb(246, 157, 41) ;">Arvind Devda</span>/&gt;</h1>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Poornima Portfolio Website</title>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <div class="homepg">
+      <div class="navbar">
         <ul>
-            <li><a hre="#">Home</a></li>
-            <li><a hre="#">Skills</a></li>
-            <li><a hre="#">About</a></li>
-            <li><a hre="#">Achievements</a></li>
-            <li><a hre="#">Contact Me</a></li>
+          <li>Home</li>
+          <li>Project</li>
+          <li>Experience</li>
+          <li>Project</li>
+          <li>About Me</li>
         </ul>
-    </div>
-    <div class="hero-section">
-        <div class="hero-info">
-            <p style="color: aqua;">Hello , I am <h1 style="font-size: 80px; margin: 0px;">Arvind Devda</h1></p>
-                <p>I am a Front-End Developer , Problem Solver, Akhand Single</p>
-                <div class="button-section">
-                    <button>Download CV</button>
-                    <button>Hire Me</button>
-                </div>
+      </div>
+      <div class="home-content">
+        <div class="home-pg">
+          <h1>Arvind Devda</h1>
+          <p>
+            Hello I am Arvind Devda , Pursueing CS from IET DAVV , <br />I am
+            an Passionate Front-End Developer and Problem Solver
+          </p>
+          <div class="bttn">
+            <button class="rbtn">Resume</button>
+            <button class="cbtn">Contact Me</button>
+          </div>
         </div>
-        <div class="hero-image">
-            <img src="./Assets/code-img-unscreen.gif" alt="">
-        </div>
+        <img src="./Image/arvind.png" alt="Arvind" />
+      </div>
     </div>
-    <div class="education-section">
-        <h1 style="color: red;">&lt;<span style="color: rgb(246, 157, 41) ;">Education</span>/&gt;</h1>
-
-        <div class="edu-container">
-            <div class="school-info">
-                <img src="./Assets/school-image.png" alt="school-image">
-                <div class="div">
-                    <strong>Talent Higher Secondary School</strong><br>
-                    <ul>
-                        <li>10 <sup>th</sup> Marks : 83.25 %</li>
-                        <li>12 <sup>th</sup> Marks : 85.6 %</li>
-                        <li>Inter-School Content Writer Winner On GST </li>
-                    </ul>
-                </div>
-                
-            </div>
-            <div class="collage-info">
-                <img src="../Q5/logoDAVV.jpg" alt="logoDAVV">
-                <div class="div-clg">
-                    <p><strong>Institute Of Engineering and technology (IET),DAVV</strong></p>
-                    <ul>
-                        <li>CGPA : 7.0</li>
-                        <li>Literature Club Content Writer</li>
-                        <li>Web Developer</li>
-                        <li>SIH Internal Hackathon Qualifiers </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <div class="skills">
+      <h1 class="special">My Skills</h1>
+      <ul>
+        <li><img src="./Image/atom.png" alt="atom" /></li>
+        <li><img src="./Image/css-3.png" alt="atom" /></li>
+        <li><img src="./Image/js.png" alt="atom" /></li>
+        <li><img src="./Image/html-5.png" alt="atom" /></li>
+        <li><img src="./Image/mongodb.png" alt="atom" /></li>
+      </ul>
     </div>
-    
-
-    
-
-
-    
-</body>
+    <div class="Experience">
+      <h1 class="special">Experience</h1>
+      <div class="exp">
+        <div class="exp-1">
+          <div class="exp-div-1">
+            <h1>E-Cell Co-ordinator</h1>
+            <p>I am Co-ordinator At IET Davv E-Cell</p>
+          </div>
+          <img src="./Image/ecell.jpg" alt="Ecell-LOgo" />
+        </div>
+        <div class="exp-2">
+          <img src="./Image/SIHTeam.jpeg" alt="Ecell-LOgo" />
+          <div class="exp-div-2">
+            <h1>Team Leader SIH 2023</h1>
+            <p>
+              I Lead the team for Sih 23 and shortListrd in Internal Hackaton
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-Me">
+      <h1 class="special">Contact Me</h1>
+      <div class="container">
+        <div class="txt">
+          <!-- <span>Name</span> -->
+          <input type="text" placeholder="Enter Name" />
+        </div>
+        <div class="txt">
+          <!-- <span>Email</span> -->
+          <input type="email" placeholder="Enter Email" />
+        </div>
+        <div class="txt">
+          <!-- <span>Message</span> -->
+          <textarea
+            class="last"
+            placeholder="Enter Your Message"
+            rows="5"
+            cols="25"
+          ></textarea>
+        </div>
+        <button type="submit" id="sbtn">Send</button>
+      </div>
+	  <div class="footer"></div>
+    </div>
+  </body>
 </html>
