@@ -33,8 +33,12 @@ body{
     background-color: bisque;
     padding: 0px 10px;
     border-radius: 25px;
-
 }
+
+.navbar ul li span:hover{
+    animation: linear 5 3 0.2 1;
+}
+
 .home-content{
     display: flex;
     height: 80vh;
@@ -133,36 +137,42 @@ body{
 
 .contact-Me{
     text-align: center;
+    height: 100vh;
 }
 .contact-Me h1{
     margin-bottom: 25px ;
 }
 
 .container{
-    height: auto;
-    width: 50em;
+    width: 80%;
+    height: 80%;
     margin: auto;
     padding-top: 25px;
     background-color: rgb(130, 128, 128);
     border-radius: 25px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    justify-items: space-around;
+    /* gap: 15px; */
 }
 
-/* .container span{
-    margin:2px 30px;
-} */
+.txt{
+    margin: 20px;
+}
 
 .txt input{
     margin: auto;
     margin-top:10px;
     border-radius: 15px;
-    height: 40px;
-    width: 35em;
+    height: 100px;
+    width: 60%;
     background-color: antiquewhite;
     padding: 15px;
+    font-size: 35px;
+    color: black;
+
 }
+
 
 .last{
     height: 85px;
@@ -170,6 +180,10 @@ body{
     border-radius: 25px;
     padding: 30px;
     background-color: antiquewhite;
+    font-size: 35px;
+    width: 60%;
+    height: 169px;
+    color: black;
 }
 
 #sbtn{
@@ -179,6 +193,9 @@ body{
     padding:8px 30px;
     margin: auto;
     margin-bottom: 45px;
+    height: 69px;
+    min-width: 75px;
+    font-size: 30px;
 }
 
 #sbtn:hover{
@@ -230,4 +247,22 @@ body{
 .footer{
     height: 45px;
 }
+
+.card {
+    max-width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: bisque;
+
+  }
+.card-content p{
+    color: black;
+  }
+
+.card img{
+    max-width: 250px;
+  }
 
